@@ -1,13 +1,11 @@
-# VincentS
-My CS Student Portfolio website
-
-My Student Portfolio Q2P2 Freelance
+# StudentPortfolio
+Student Portfolio (Aladdin) Q1P3 walk-through
 
 <hr>
 <em>All project work/edits must be done in your AWS Cloud9 IDE (Integrated Development Environment). NEVER write directly to your GitHub Repositories!</em>
 <hr>
 
-My Student Portfolio is our second project "freelance".
+Student Portfolio is our second project "walkthrough".
 
 ## The key concepts introduced:
     1. Basic HTML tags and their structure
