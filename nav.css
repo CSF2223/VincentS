@@ -3,9 +3,13 @@
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 0.2rem;
+    background-color: #5D707F;
+    border: 3px double #5D707F;
+    border-radius: 22px;
     
 }
 

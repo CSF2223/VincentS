@@ -1,11 +1,11 @@
 /*
 Color Palette
-background color: #200439
-primary: #512C73
-secondary: #361356
-tertiary: #6F4D8F
+background color: #6D8A96
+primary: #5D707F
+secondary: #66CED6
+tertiary: #8797B2
 accent: #9277AC
-vegasGold: #c5b358
+vegasGold: #A7A5C6
 white: #fff
 black: #000  
 */
@@ -21,9 +21,8 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    background-color: #200439;
     background-color: #666666;
-    background-image: url('https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=');
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/217/210/non_2x/binary-code-background-vector.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,6 +44,9 @@ body {
     box-shadow: 10px 10px #000;
     width: 100%;
     height: auto;
+    flex-direction: flex-end;
+    justify-content: center;
+
 }
 
 .heroText {
@@ -52,6 +54,9 @@ body {
     padding-bottom: 2rem;
     text-align: Left;
     letter-spacing: 5px;
+    background-color: #A7C4B5;
+    border: 3px double #A7C4B5;
+    border-radius: 22px;
 }
 
 .heroName {
@@ -79,7 +84,7 @@ body {
     border-radius: 25px;
     font-size: 0.9rem;
     font-weight: 700;
-    color: #200439;
+    color: #6D8A96;
     text-decoration: none;
     box-shadow: 8px 8px 4px #000;
 }
@@ -100,7 +105,7 @@ body {
 
 .projectCard {
     background-color: #fff;
-    color: #200439;
+    color: #6D8A96;
     margin: 4rem 3rem;
     padding: 0.5rem 2rem;
     text-align: center;
