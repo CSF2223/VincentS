@@ -22,10 +22,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     background-color: #666666;
-    background-image: url('https://static.vecteezy.com/system/resources/previews/001/217/210/non_2x/binary-code-background-vector.jpg');
+    background-image: url('https://images.unsplash.com/photo-1497864979123-ef3595423b92?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bmlnaHQlMjBibHVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    
+
 }
 
 .hero {
@@ -44,7 +46,7 @@ body {
     box-shadow: 10px 10px #000;
     width: 100%;
     height: auto;
-    flex-direction: flex-end;
+    flex-direction: column;
     justify-content: center;
 
 }
@@ -52,11 +54,12 @@ body {
 .heroText {
     font-size: 0.8rem;
     padding-bottom: 2rem;
-    text-align: Left;
+    text-align: left;
     letter-spacing: 5px;
-    background-color: #A7C4B5;
-    border: 3px double #A7C4B5;
-    border-radius: 22px;
+    background-color: black;
+    opacity: 0.9;
+    color: blue;
+
 }
 
 .heroName {
@@ -67,6 +70,8 @@ body {
 
 .heroTextTop {
     padding: 1rem;
+    padding-right: 27rem;
+    padding-top: 1.3rem;
 }
 
 .heroTextBottom {
@@ -207,5 +212,9 @@ footer {
     
     .projectCard {
         max-width: 20%;
+    }
+    
+    footer {
+        background-color: grey;
     }
 }
