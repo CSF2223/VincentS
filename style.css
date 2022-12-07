@@ -229,3 +229,38 @@ footer {
         background-color: grey;
     }
 }
+
+.gallery-wrapper {
+  background-color: #dbdbdb;
+  box-sizing: border-box;
+  height: 240px;
+  overflow: hidden;
+  width: 33rem;
+}
+
+.gallery-scroll {
+  box-sizing: border-box;
+  height: 255px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.gallery {
+  background-color: black;
+  display: flex;
+  box-sizing: border-box;
+  width: max-content;
+  height: 240px;
+  padding: 0px 20px;
+}
+
+.item {
+  box-sizing: border-box;
+  height: 100%;
+  padding: 13px 20px;
+}
+
+.item img {
+  display: block;
+  height: 100%;
+}
